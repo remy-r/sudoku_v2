@@ -1,2 +1,5 @@
 pre-commit
+black
+mypy
+pylint
 ortools
