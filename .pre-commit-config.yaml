@@ -40,3 +40,11 @@ repos:
         pass_filenames: false
         language: system
         types: [python]
+-   repo: local
+    hooks:
+    -   id: pylint
+        name: Check pylint
+        entry: pylint
+        pass_filenames: true
+        language: system
+        types: [python]
