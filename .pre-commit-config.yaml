@@ -32,3 +32,11 @@ repos:
         pass_filenames: false
         entry: 'coverage-badge -f -q -o coverage.svg'
         additional_dependencies: [coverage-badge]
+-   repo: local
+    hooks:
+    -   id: pytest
+        name: Check pytest unit tests pass
+        entry: pytest
+        pass_filenames: false
+        language: system
+        types: [python]
