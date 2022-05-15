@@ -2,4 +2,7 @@ pre-commit
 black
 mypy
 pylint
+pytest
+pytest-cov
 ortools
+coverage-badge
