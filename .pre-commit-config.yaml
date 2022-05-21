@@ -23,28 +23,3 @@ repos:
     hooks:
     -   id: pyupgrade
         args: [--py37-plus]
--   repo: local
-    hooks:
-    -   id: coverage-badge
-        name: coverage-badge
-        language: python
-        types: [python]
-        pass_filenames: false
-        entry: 'coverage-badge -f -q -o coverage.svg'
-        additional_dependencies: [coverage-badge]
--   repo: local
-    hooks:
-    -   id: pytest
-        name: Check pytest unit tests pass
-        entry: pytest
-        pass_filenames: false
-        language: system
-        types: [python]
--   repo: local
-    hooks:
-    -   id: pylint
-        name: Check pylint
-        entry: pylint
-        pass_filenames: true
-        language: system
-        types: [python]

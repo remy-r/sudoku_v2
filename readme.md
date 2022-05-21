@@ -1,5 +1,3 @@
-![Example coverage badge](coverage.svg)
-
 ```
 $ python3 -m venv venv
 $ source venv/bin/activate

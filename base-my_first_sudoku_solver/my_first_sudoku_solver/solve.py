@@ -7,7 +7,7 @@ from typing import Union
 from ortools.sat.python import cp_model
 
 # [END import]
-def sudoku_solver(sudoku_str: str) -> Union[str, None]:
+def solve(sudoku_str: str) -> Union[str, None]:
     """Minimal CP-SAT example to showcase calling the solver."""
 
     # Creates the model.
@@ -79,7 +79,7 @@ def sudoku_solver(sudoku_str: str) -> Union[str, None]:
 if __name__ == "__main__":
 
     EXAMPLE = "600837001089004700102000400000450020030609005040000860908006070700098010005100930"
-    print(sudoku_solver(EXAMPLE))
+    print(solve(EXAMPLE))
 
     # 654837291389214756172965483896451327237689145541723869918346572723598614465172938
 # [END program]
