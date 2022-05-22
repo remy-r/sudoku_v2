@@ -2,3 +2,7 @@
 # Regexes for lines to exclude from consideration
 exclude_lines =
     if __name__ == "__main__":
+[run]
+include =
+        ./base-my_first_sudoku_solver/*
+disable_warnings=include-ignored

@@ -1,6 +1,8 @@
 """Module Test solve Sudoku"""
 from my_first_sudoku_solver import solve
 
+collect_ignore = ["setup.py"]
+
 
 def test_solve_sudoku() -> None:
     """Test sudoku"""
