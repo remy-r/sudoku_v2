@@ -23,12 +23,3 @@ repos:
     hooks:
     -   id: pyupgrade
         args: [--py37-plus]
--   repo: local
-    hooks:
-    -   id: coverage-badge
-        name: coverage-badge
-        language: python
-        types: [python]
-        pass_filenames: false
-        entry: 'coverage-badge -f -q -o coverage.svg'
-        additional_dependencies: [coverage-badge]
