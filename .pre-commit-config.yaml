@@ -25,14 +25,6 @@ repos:
         args: [--py37-plus]
 -   repo: local
     hooks:
-    -   id: pytest
-        name: Check pytest unit tests pass
-        entry: pytest --cov=base-my_first_sudoku_solver --cov-reposr=xml
-        pass_filenames: false
-        language: system
-        types: [python]
--   repo: local
-    hooks:
     -   id: coverage-badge
         name: coverage-badge
         language: python
