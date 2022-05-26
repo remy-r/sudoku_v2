@@ -12,7 +12,7 @@ def solve(sudoku_str: str) -> Union[str, None]:
 
     # Creates the model.
     # [START model]
-    a = 1
+
     model = cp_model.CpModel()
 
     # [END model]
