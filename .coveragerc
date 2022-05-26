@@ -5,4 +5,5 @@ exclude_lines =
 [run]
 include =
         ./base-my_first_sudoku_solver/*
+omit = ./base-my_first_sudoku_solver/setup.py
 disable_warnings=include-ignored
